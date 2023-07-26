@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 3.5.4
-    created: "2023-07-26T13:38:45.320773662Z"
+    created: "2023-07-26T14:05:06.772472874Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.22.0
-    created: "2023-07-26T13:38:45.326083013Z"
+    created: "2023-07-26T14:05:06.776464727Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +71,7 @@ entries:
   only-pod:
   - apiVersion: v2
     appVersion: 8.8.8
-    created: "2023-07-26T13:38:45.327296225Z"
+    created: "2023-07-26T14:05:06.777378939Z"
     description: Only pod, no service/ingress
     digest: 9e5e618d196614e52852f8c7d46606cfadd7e533490bf7c3335b02452d2bf3da
     name: only-pod
@@ -81,7 +81,7 @@ entries:
     version: 8.8.8
   - apiVersion: v2
     appVersion: 6.6.6
-    created: "2023-07-26T13:38:45.326688419Z"
+    created: "2023-07-26T14:05:06.776950733Z"
     description: Only pod, no service/ingress
     digest: 1ede506b56c46a69fb7307b94025b1c875a130c749bb64f9cdf6612453890de5
     name: only-pod
@@ -94,7 +94,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 5.9.3
-    created: "2023-07-26T13:38:45.34429129Z"
+    created: "2023-07-26T14:05:06.788777191Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -133,4 +133,4 @@ entries:
     urls:
     - https://godq.github.io/helm-charts/charts/wordpress-14.3.7.tgz
     version: 14.3.7
-generated: "2023-07-26T13:38:45.316304918Z"
+generated: "2023-07-26T14:05:06.768521721Z"
