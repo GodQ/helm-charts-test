@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 3.5.4
-    created: "2023-07-26T14:05:54.964705891Z"
+    created: "2023-07-26T14:09:00.618305151Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.22.0
-    created: "2023-07-26T14:05:54.967592099Z"
+    created: "2023-07-26T14:09:00.621499603Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +71,7 @@ entries:
   only-pod:
   - apiVersion: v2
     appVersion: 8.8.8
-    created: "2023-07-26T14:05:54.968462901Z"
+    created: "2023-07-26T14:09:00.622539419Z"
     description: Only pod, no service/ingress
     digest: 9e5e618d196614e52852f8c7d46606cfadd7e533490bf7c3335b02452d2bf3da
     name: only-pod
@@ -81,9 +81,9 @@ entries:
     version: 8.8.8
   - apiVersion: v2
     appVersion: 6.6.6
-    created: "2023-07-26T14:05:54.9680348Z"
+    created: "2023-07-26T14:09:00.622043811Z"
     description: Only pod, no service/ingress
-    digest: e009cbb45e0a44b562ced384cc96a7f29bfb313df55dd66dc7711bf1174e1aa3
+    digest: 9082f025ebe082a7d189dfd45bae32b59f1438f46ffb4b44b7ccc3e4e10cab06
     home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
     icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
     name: only-pod
@@ -96,7 +96,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 5.9.3
-    created: "2023-07-26T14:05:54.97872013Z"
+    created: "2023-07-26T14:09:00.639410889Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -135,4 +135,4 @@ entries:
     urls:
     - https://godq.github.io/helm-charts/charts/wordpress-14.3.7.tgz
     version: 14.3.7
-generated: "2023-07-26T14:05:54.960204578Z"
+generated: "2023-07-26T14:09:00.614531691Z"
