@@ -29,6 +29,6 @@ jobs:
           helm package code/*
           mv *.tgz charts
           helm repo index --url https://godq.github.io/helm-charts/ .
-          git add index.yaml
+          git add index.yaml charts
           git commit -m "update charts"
           git push
