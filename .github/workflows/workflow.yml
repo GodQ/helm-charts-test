@@ -23,9 +23,5 @@ jobs:
         uses: helm/chart-releaser-action@v1.5.0
         with:
           charts_dir: charts
-          owner: GodQ
-          # For helm charts index
-          charts_repo_url: https://godq.github.io/helm-charts
-          pages_branch: master
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
