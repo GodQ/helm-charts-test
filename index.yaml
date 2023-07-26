@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 3.5.4
-    created: "2023-07-26T20:21:58.736469+08:00"
+    created: "2023-07-26T20:29:42.997728+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -39,7 +39,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.22.0
-    created: "2023-07-26T20:21:58.740585+08:00"
+    created: "2023-07-26T20:29:43.001067+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -70,21 +70,31 @@ entries:
     version: 12.0.6
   only-pod:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-26T20:21:58.741344+08:00"
+    appVersion: 8.8.8
+    created: "2023-07-26T20:29:43.002534+08:00"
     description: Only pod, no service/ingress
-    digest: 5d43fa0df0a3b459f5c6e604049b9cd6d3e37ee88a25ac0807e0af2c22f9a77d
+    digest: 9e5e618d196614e52852f8c7d46606cfadd7e533490bf7c3335b02452d2bf3da
     name: only-pod
     type: application
     urls:
-    - https://godq.github.io/helm-charts/charts/only-pod-0.1.0.tgz
-    version: 0.1.0
+    - https://godq.github.io/helm-charts/charts/only-pod-8.8.8.tgz
+    version: 8.8.8
+  - apiVersion: v2
+    appVersion: 6.6.6
+    created: "2023-07-26T20:29:43.001792+08:00"
+    description: Only pod, no service/ingress
+    digest: 1ede506b56c46a69fb7307b94025b1c875a130c749bb64f9cdf6612453890de5
+    name: only-pod
+    type: application
+    urls:
+    - https://godq.github.io/helm-charts/charts/only-pod-6.6.6.tgz
+    version: 6.6.6
   wordpress:
   - annotations:
       category: CMS
     apiVersion: v2
     appVersion: 5.9.3
-    created: "2023-07-26T20:21:58.750079+08:00"
+    created: "2023-07-26T20:29:43.01067+08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -123,4 +133,4 @@ entries:
     urls:
     - https://godq.github.io/helm-charts/charts/wordpress-14.3.7.tgz
     version: 14.3.7
-generated: "2023-07-26T20:21:58.733285+08:00"
+generated: "2023-07-26T20:29:42.994805+08:00"
