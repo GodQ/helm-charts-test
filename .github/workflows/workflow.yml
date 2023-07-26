@@ -23,12 +23,12 @@ jobs:
         uses: azure/setup-helm@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: helm-index
         run: |
+          helm package code/*
+          mv *.tgz charts
           helm repo index --url https://godq.github.io/helm-charts/ .
           git add index.yaml
-          git commit -m "update index.yaml" 
+          git commit -m "update charts"
           git push
-          
-      
