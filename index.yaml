@@ -1,11 +1,78 @@
 apiVersion: v1
 entries:
+  community-operator:
+  - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2025-01-15T15:35:11.042642+08:00"
+    dependencies:
+    - condition: community-operator-crds.enabled
+      name: community-operator-crds
+      repository: https://mongodb.github.io/helm-charts
+      version: 0.9.0
+    description: MongoDB Kubernetes Community Operator
+    digest: 4efe851887dc4bee4c608bac2f369a2b42fc0dadd9fd063fe84ad376763410d5
+    home: https://github.com/mongodb/mongodb-kubernetes-operator
+    icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16-0'
+    maintainers:
+    - email: support@mongodb.com
+      name: MongoDB
+    name: community-operator
+    type: application
+    urls:
+    - https://godq.github.io/helm-charts/mongodb-community-operator-0.9.0.tgz
+    version: 0.9.0
+  confluent-for-kubernetes:
+  - apiVersion: v1
+    appVersion: 2.7.3
+    created: "2025-01-15T15:35:11.041817+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: e4129748bbd5c6ac14a970419e64bfa6b9280bcc147f05f105c8721993275222
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts/kafka-confluent-for-kubernetes-0.824.40.tgz
+    version: 0.824.40
+  enterprise-operator:
+  - apiVersion: v2
+    created: "2025-01-15T15:35:11.043631+08:00"
+    description: MongoDB Kubernetes Enterprise Operator
+    digest: 7ae1b2606e7ca2f2a8a6473016daa1ace1d3d0bd4116bbc5318d45cf4066ad4f
+    home: https://github.com/mongodb/mongodb-enterprise-kubernetes
+    icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16-0'
+    maintainers:
+    - email: support@mongodb.com
+      name: MongoDB
+    name: enterprise-operator
+    type: application
+    urls:
+    - https://godq.github.io/helm-charts/mongodb-enterprise-operator-1.24.0.tgz
+    version: 1.24.0
   etcd:
   - annotations:
       category: Database
     apiVersion: v2
     appVersion: 3.5.4
-    created: "2023-10-12T07:10:38.142764074Z"
+    created: "2025-01-15T15:35:11.033901+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -32,14 +99,14 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/etcd
     - https://coreos.com/etcd/
     urls:
-    - https://godq.github.io/helm-charts/charts/etcd-8.5.0.tgz
+    - https://godq.github.io/helm-charts/etcd-8.5.0.tgz
     version: 8.5.0
   nginx:
   - annotations:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.22.0
-    created: "2023-10-12T07:10:38.146190427Z"
+    created: "2025-01-15T15:35:11.045447+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -66,22 +133,22 @@ entries:
     - https://github.com/bitnami/bitnami-docker-nginx
     - https://www.nginx.org
     urls:
-    - https://godq.github.io/helm-charts/charts/nginx-12.0.6.tgz
+    - https://godq.github.io/helm-charts/nginx-12.0.6.tgz
     version: 12.0.6
   only-pod:
   - apiVersion: v2
     appVersion: 8.8.8
-    created: "2023-10-12T07:10:38.147211643Z"
+    created: "2025-01-15T15:35:11.046425+08:00"
     description: Only pod, no service/ingress
     digest: 9e5e618d196614e52852f8c7d46606cfadd7e533490bf7c3335b02452d2bf3da
     name: only-pod
     type: application
     urls:
-    - https://godq.github.io/helm-charts/charts/only-pod-8.8.8.tgz
+    - https://godq.github.io/helm-charts/only-pod-8.8.8.tgz
     version: 8.8.8
   - apiVersion: v2
     appVersion: 6.6.6
-    created: "2023-10-12T07:10:38.146710635Z"
+    created: "2025-01-15T15:35:11.045936+08:00"
     description: Only pod, no service/ingress
     digest: 8a7c7782c93f2eb3019b51d78f5541f26350e94627d060365d105fab15d47837
     home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
@@ -89,14 +156,14 @@ entries:
     name: only-pod
     type: application
     urls:
-    - https://godq.github.io/helm-charts/charts/only-pod-6.6.6.tgz
+    - https://godq.github.io/helm-charts/only-pod-6.6.6.tgz
     version: 6.6.6
   wordpress:
   - annotations:
       category: CMS
     apiVersion: v2
     appVersion: 5.9.3
-    created: "2023-10-12T07:10:38.159571134Z"
+    created: "2025-01-15T15:35:11.051987+08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -133,6 +200,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-wordpress
     - https://wordpress.org/
     urls:
-    - https://godq.github.io/helm-charts/charts/wordpress-14.3.7.tgz
+    - https://godq.github.io/helm-charts/wordpress-14.3.7.tgz
     version: 14.3.7
-generated: "2023-10-12T07:10:38.137650895Z"
+generated: "2025-01-15T15:35:11.031148+08:00"
