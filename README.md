@@ -34,7 +34,7 @@ git push
 Once Helm has been set up correctly, add the repo as follows:
 ```
 helm repo add godq-charts https://godq.github.io/helm-charts
-helm search repo godq-charts -l | grep confluent
+helm search repo godq-charts -l --devel | grep confluent
 ```
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
