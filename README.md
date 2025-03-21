@@ -25,7 +25,9 @@ mv alpine-0.1.0.tgz charts/
 ```
 helm repo index charts --url https://godq.github.io/helm-charts
 mv charts/index.yaml .
-git add . && git commit -m "add chart" && git push
+git add . 
+git commit -m "add chart" 
+git push
 ```
 
 # Usage
