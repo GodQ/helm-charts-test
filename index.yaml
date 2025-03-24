@@ -3,7 +3,7 @@ entries:
   community-operator:
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2025-03-21T17:49:32.027432+08:00"
+    created: "2025-03-24T11:44:37.22134+08:00"
     dependencies:
     - condition: community-operator-crds.enabled
       name: community-operator-crds
@@ -29,7 +29,7 @@ entries:
   confluent-for-kubernetes:
   - apiVersion: v1
     appVersion: 2.11.0
-    created: "2025-03-21T17:49:31.960544+08:00"
+    created: "2025-03-24T11:44:37.152915+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 74c41db110eef69b774f7051e6f02879703ffb2821b0ef5a44333a0c7f66099f
     home: https://www.confluent.io/
@@ -48,8 +48,28 @@ entries:
     - https://godq.github.io/helm-charts/confluent-for-kubernetes-0.1193.1.tgz
     version: 0.1193.1
   - apiVersion: v1
+    appVersion: 2.11.0
+    created: "2025-03-24T11:44:37.144919+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 6858283d985a50cef29c3f9a4846c6392f292ff2c8c1e9f638ba201e5884a4c3
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts/confluent-for-kubernetes-0.1193.1-internal.tgz
+    version: 0.1193.1-internal
+  - apiVersion: v1
     appVersion: 2.10.0
-    created: "2025-03-21T17:49:31.952173+08:00"
+    created: "2025-03-24T11:44:37.137182+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 2942cac0588d236347ee624a08e1ce94d68cfbb4d7a54b0b78fd151e91a65a2f
     home: https://www.confluent.io/
@@ -69,7 +89,7 @@ entries:
     version: 0.1145.6
   - apiVersion: v1
     appVersion: 2.9.4
-    created: "2025-03-21T17:49:31.943793+08:00"
+    created: "2025-03-24T11:44:37.129073+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: f83f2a98b2d39bf888f5cf8a3a0411223720312fb8d1dd6adb8ae03b0e11f5a0
     home: https://www.confluent.io/
@@ -89,7 +109,7 @@ entries:
     version: 0.1033.43
   - apiVersion: v1
     appVersion: 2.9.3
-    created: "2025-03-21T17:49:31.935701+08:00"
+    created: "2025-03-24T11:44:37.121208+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 0a30c0560f58e92418e50defc78d4e837f810838e5895bc947c7fb2e9c2fce70
     home: https://www.confluent.io/
@@ -109,7 +129,7 @@ entries:
     version: 0.1033.33
   - apiVersion: v1
     appVersion: 2.9.2
-    created: "2025-03-21T17:49:31.91928+08:00"
+    created: "2025-03-24T11:44:37.104999+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 95dd773005b912b1211a2f3696e899e4a9a7b5ad38b2d2e68a3d697da5a7ace7
     home: https://www.confluent.io/
@@ -129,7 +149,7 @@ entries:
     version: 0.1033.22
   - apiVersion: v1
     appVersion: 2.9.1
-    created: "2025-03-21T17:49:31.910252+08:00"
+    created: "2025-03-24T11:44:37.096188+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 9e4cf01be3259c204e30c0f0e6d3b05dbc423c4f83c72650ea0be473044e878a
     home: https://www.confluent.io/
@@ -149,7 +169,7 @@ entries:
     version: 0.1033.10
   - apiVersion: v1
     appVersion: 2.9.0
-    created: "2025-03-21T17:49:31.927952+08:00"
+    created: "2025-03-24T11:44:37.11313+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 29530662581e4e762b9cc2944f040c7addc02870e1de9eccb5d10b9c62ee57db
     home: https://www.confluent.io/
@@ -169,7 +189,7 @@ entries:
     version: 0.1033.3
   - apiVersion: v1
     appVersion: 2.8.5
-    created: "2025-03-21T17:49:32.02452+08:00"
+    created: "2025-03-24T11:44:37.218136+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: f20ea426f3002633770da2ebc9bdb5a6aa5e73e8430968bc4b197c069e1172b4
     home: https://www.confluent.io/
@@ -189,7 +209,7 @@ entries:
     version: 0.921.77
   - apiVersion: v1
     appVersion: 2.8.4
-    created: "2025-03-21T17:49:32.016914+08:00"
+    created: "2025-03-24T11:44:37.211176+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: a1c40312b72eb046d9db00f0a488d20bb570efa302e08ee3c10e0434c85103c1
     home: https://www.confluent.io/
@@ -209,7 +229,7 @@ entries:
     version: 0.921.63
   - apiVersion: v1
     appVersion: 2.8.3
-    created: "2025-03-21T17:49:32.009905+08:00"
+    created: "2025-03-24T11:44:37.204434+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 8f1218e9223bf11e2c25bbd303746b5d58732a7ae31a2bdc260fe1be39252bfb
     home: https://www.confluent.io/
@@ -229,7 +249,7 @@ entries:
     version: 0.921.40
   - apiVersion: v1
     appVersion: 2.8.2
-    created: "2025-03-21T17:49:32.003045+08:00"
+    created: "2025-03-24T11:44:37.197513+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 31bf5d7ddeab988211679f742518ffd4e6f1ccad4e6d5a52c03055dffc065846
     home: https://www.confluent.io/
@@ -249,7 +269,7 @@ entries:
     version: 0.921.20
   - apiVersion: v1
     appVersion: 2.8.0
-    created: "2025-03-21T17:49:31.995864+08:00"
+    created: "2025-03-24T11:44:37.188835+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 3b2fc355d56bfc3f359f00f51e0edbef65214a019e05eea2845195d98eed1dff
     home: https://www.confluent.io/
@@ -269,7 +289,7 @@ entries:
     version: 0.921.2
   - apiVersion: v1
     appVersion: 2.7.5
-    created: "2025-03-21T17:49:31.988511+08:00"
+    created: "2025-03-24T11:44:37.181404+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: f5f06af5038ea0944bf4313898b8c6ba583a2792e54e599c0dc219b20a077985
     home: https://www.confluent.io/
@@ -289,7 +309,7 @@ entries:
     version: 0.824.84
   - apiVersion: v1
     appVersion: 2.7.4
-    created: "2025-03-21T17:49:31.981688+08:00"
+    created: "2025-03-24T11:44:37.174467+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 5e47cb890ecb5f3c9c36f99a356a197bb797d80c659c6168e972b2e512cc53a4
     home: https://www.confluent.io/
@@ -309,7 +329,7 @@ entries:
     version: 0.824.61
   - apiVersion: v1
     appVersion: 2.7.3
-    created: "2025-03-21T17:49:31.974313+08:00"
+    created: "2025-03-24T11:44:37.167554+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: e4129748bbd5c6ac14a970419e64bfa6b9280bcc147f05f105c8721993275222
     home: https://www.confluent.io/
@@ -329,7 +349,7 @@ entries:
     version: 0.824.40
   - apiVersion: v1
     appVersion: 2.7.3
-    created: "2025-03-21T17:49:31.967026+08:00"
+    created: "2025-03-24T11:44:37.16026+08:00"
     description: A Helm chart to deploy Confluent for Kubernetes
     digest: 35a74c6f5834314d4bf7875cd8db9d2e5ae3bdc175b038f89dc3d1634baf268d
     home: https://www.confluent.io/
@@ -349,7 +369,7 @@ entries:
     version: 0.824.40-internal
   enterprise-operator:
   - apiVersion: v2
-    created: "2025-03-21T17:49:32.028648+08:00"
+    created: "2025-03-24T11:44:37.222917+08:00"
     description: MongoDB Kubernetes Enterprise Operator
     digest: 7ae1b2606e7ca2f2a8a6473016daa1ace1d3d0bd4116bbc5318d45cf4066ad4f
     home: https://github.com/mongodb/mongodb-enterprise-kubernetes
@@ -372,7 +392,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 3.5.4
-    created: "2025-03-21T17:49:32.026628+08:00"
+    created: "2025-03-24T11:44:37.220249+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -406,7 +426,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.22.0
-    created: "2025-03-21T17:49:32.030442+08:00"
+    created: "2025-03-24T11:44:37.224723+08:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -438,7 +458,7 @@ entries:
   only-pod:
   - apiVersion: v2
     appVersion: 8.8.8
-    created: "2025-03-21T17:49:32.031752+08:00"
+    created: "2025-03-24T11:44:37.225848+08:00"
     description: Only pod, no service/ingress
     digest: 9e5e618d196614e52852f8c7d46606cfadd7e533490bf7c3335b02452d2bf3da
     name: only-pod
@@ -448,7 +468,7 @@ entries:
     version: 8.8.8
   - apiVersion: v2
     appVersion: 6.6.6
-    created: "2025-03-21T17:49:32.031002+08:00"
+    created: "2025-03-24T11:44:37.225338+08:00"
     description: Only pod, no service/ingress
     digest: 688d54eb2554b25c690cfe63cf22dbbd782d7210bfb268109ffae5c92eb340a6
     home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
@@ -463,7 +483,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 5.9.3
-    created: "2025-03-21T17:49:32.037434+08:00"
+    created: "2025-03-24T11:44:37.232114+08:00"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -502,4 +522,4 @@ entries:
     urls:
     - https://godq.github.io/helm-charts/wordpress-14.3.7.tgz
     version: 14.3.7
-generated: "2025-03-21T17:49:31.899562+08:00"
+generated: "2025-03-24T11:44:37.085221+08:00"
