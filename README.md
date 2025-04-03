@@ -22,14 +22,13 @@ helm pull bitnami/nginx --version 18.3.5  # download the helm chart tgz
 
 ## Build own chart tgz
 ```
-helm package examples/alpine/
-mv alpine-0.1.0.tgz charts/
+helm package code/*
+mv *.tgz charts
 ```
 
 ## Update helm chart repo
 ```
-helm repo index charts --url https://godq.github.io/helm-charts-test
-mv charts/index.yaml .
+helm repo index --url https://godq.github.io/helm-charts-test .
 git add . 
 git commit -m "add chart" 
 git push
