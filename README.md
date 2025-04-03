@@ -1,3 +1,8 @@
+# Changes 
+
+[change image](charts/confluent-for-kubernetes-0.824.40.tgz)
+[change image](charts/confluent-for-kubernetes-0.1193.1.tgz)
+
 # Prepare
 
 [Helm](https://helm.sh) must be installed to use the charts.  Please refer to
@@ -23,7 +28,7 @@ mv alpine-0.1.0.tgz charts/
 
 ## Update helm chart repo
 ```
-helm repo index charts --url https://godq.github.io/helm-charts
+helm repo index charts --url https://godq.github.io/helm-charts-test
 mv charts/index.yaml .
 git add . 
 git commit -m "add chart" 
@@ -33,7 +38,7 @@ git push
 # Usage
 Once Helm has been set up correctly, add the repo as follows:
 ```
-helm repo add godq-charts https://godq.github.io/helm-charts
+helm repo add godq-charts https://godq.github.io/helm-charts-test
 helm search repo godq-charts -l --devel | grep confluent
 ```
 If you had already added this repo earlier, run `helm repo update` to retrieve
