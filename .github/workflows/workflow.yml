@@ -24,16 +24,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: helm-index
+      - name: helm-index-test
         run: |
           helm package code/*
           mv *.tgz charts
           helm repo index --url https://godq.github.io/helm-charts-test/ .
-          git add index.yaml charts
-          git commit -m "update charts"
-          git push
       
-      - name: test
+      - name: use-test
         run: |
           helm repo add godq-charts https://godq.github.io/helm-charts-test
           helm repo update
