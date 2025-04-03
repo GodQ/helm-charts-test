@@ -1,6 +1,6 @@
 apiVersion: v2
 name: only-pod
-description: Only pod, no service/ingress
+description: Internal - Only pod, no service/ingress
 
 # A chart can be either an 'application' or a 'library' chart.
 #

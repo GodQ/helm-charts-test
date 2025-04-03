@@ -1,6 +1,6 @@
 apiVersion: v1
 appVersion: 2.11.0
-description: A Helm chart to deploy Confluent for Kubernetes
+description: Internal - A Helm chart to deploy Confluent for Kubernetes
 home: https://www.confluent.io/
 keywords:
   - Confluent
