@@ -67,7 +67,7 @@ readinessProbe:
   version: 1.0.17
 mongodb:
   name: mongo
-  repo: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds
+  repo: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
 
 registry:
   agent: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
