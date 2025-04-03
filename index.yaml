@@ -1,488 +1,485 @@
 apiVersion: v1
 entries:
   community-operator:
-    - apiVersion: v2
-      appVersion: 0.9.0
-      created: "2025-04-03T14:05:57.931914+08:00"
-      dependencies:
-        - condition: community-operator-crds.enabled
-          name: community-operator-crds
-          repository: https://mongodb.github.io/helm-charts
-          version: 0.9.0
-      description: MongoDB Kubernetes Community Operator
-      digest: 4efe851887dc4bee4c608bac2f369a2b42fc0dadd9fd063fe84ad376763410d5
-      home: https://github.com/mongodb/mongodb-kubernetes-operator
-      icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
-      keywords:
-        - mongodb
-        - database
-        - nosql
-      kubeVersion: ">=1.16-0"
-      maintainers:
-        - email: support@mongodb.com
-          name: MongoDB
-      name: community-operator
-      type: application
-      urls:
-        - https://godq.github.io/helm-charts-test/mongodb-community-operator-0.9.0.tgz
+  - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2025-04-03T14:41:23.836248+08:00"
+    dependencies:
+    - condition: community-operator-crds.enabled
+      name: community-operator-crds
+      repository: https://mongodb.github.io/helm-charts
       version: 0.9.0
+    description: MongoDB Kubernetes Community Operator
+    digest: 4efe851887dc4bee4c608bac2f369a2b42fc0dadd9fd063fe84ad376763410d5
+    home: https://github.com/mongodb/mongodb-kubernetes-operator
+    icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16-0'
+    maintainers:
+    - email: support@mongodb.com
+      name: MongoDB
+    name: community-operator
+    type: application
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/mongodb-community-operator-0.9.0.tgz
+    version: 0.9.0
   confluent-for-kubernetes:
-    - apiVersion: v1
-      appVersion: 2.11.0
-      created: "2025-04-03T14:05:57.870715+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 9b5c20dfd1c0739c0fdcd787e223a69ac8c12156a42d0a4185d91a14109acca2
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.1193.1.tgz
-      version: 0.1193.1
-    - apiVersion: v1
-      appVersion: 2.10.0
-      created: "2025-04-03T14:05:57.863186+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 2942cac0588d236347ee624a08e1ce94d68cfbb4d7a54b0b78fd151e91a65a2f
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.1145.6.tgz
-      version: 0.1145.6
-    - apiVersion: v1
-      appVersion: 2.9.4
-      created: "2025-04-03T14:05:57.854774+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: f83f2a98b2d39bf888f5cf8a3a0411223720312fb8d1dd6adb8ae03b0e11f5a0
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.1033.43.tgz
-      version: 0.1033.43
-    - apiVersion: v1
-      appVersion: 2.9.3
-      created: "2025-04-03T14:05:57.846698+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 0a30c0560f58e92418e50defc78d4e837f810838e5895bc947c7fb2e9c2fce70
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.1033.33.tgz
-      version: 0.1033.33
-    - apiVersion: v1
-      appVersion: 2.9.2
-      created: "2025-04-03T14:05:57.830017+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 95dd773005b912b1211a2f3696e899e4a9a7b5ad38b2d2e68a3d697da5a7ace7
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.1033.22.tgz
-      version: 0.1033.22
-    - apiVersion: v1
-      appVersion: 2.9.1
-      created: "2025-04-03T14:05:57.821844+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 9e4cf01be3259c204e30c0f0e6d3b05dbc423c4f83c72650ea0be473044e878a
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.1033.10.tgz
-      version: 0.1033.10
-    - apiVersion: v1
-      appVersion: 2.9.0
-      created: "2025-04-03T14:05:57.838633+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 29530662581e4e762b9cc2944f040c7addc02870e1de9eccb5d10b9c62ee57db
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.1033.3.tgz
-      version: 0.1033.3
-    - apiVersion: v1
-      appVersion: 2.8.5
-      created: "2025-04-03T14:05:57.928616+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: f20ea426f3002633770da2ebc9bdb5a6aa5e73e8430968bc4b197c069e1172b4
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.921.77.tgz
-      version: 0.921.77
-    - apiVersion: v1
-      appVersion: 2.8.4
-      created: "2025-04-03T14:05:57.921324+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: a1c40312b72eb046d9db00f0a488d20bb570efa302e08ee3c10e0434c85103c1
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.921.63.tgz
-      version: 0.921.63
-    - apiVersion: v1
-      appVersion: 2.8.3
-      created: "2025-04-03T14:05:57.914468+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 8f1218e9223bf11e2c25bbd303746b5d58732a7ae31a2bdc260fe1be39252bfb
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.921.40.tgz
-      version: 0.921.40
-    - apiVersion: v1
-      appVersion: 2.8.2
-      created: "2025-04-03T14:05:57.907163+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 31bf5d7ddeab988211679f742518ffd4e6f1ccad4e6d5a52c03055dffc065846
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.921.20.tgz
-      version: 0.921.20
-    - apiVersion: v1
-      appVersion: 2.8.0
-      created: "2025-04-03T14:05:57.89976+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 3b2fc355d56bfc3f359f00f51e0edbef65214a019e05eea2845195d98eed1dff
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.921.2.tgz
-      version: 0.921.2
-    - apiVersion: v1
-      appVersion: 2.7.5
-      created: "2025-04-03T14:05:57.8928+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: f5f06af5038ea0944bf4313898b8c6ba583a2792e54e599c0dc219b20a077985
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.824.84.tgz
-      version: 0.824.84
-    - apiVersion: v1
-      appVersion: 2.7.4
-      created: "2025-04-03T14:05:57.885616+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: 5e47cb890ecb5f3c9c36f99a356a197bb797d80c659c6168e972b2e512cc53a4
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.824.61.tgz
-      version: 0.824.61
-    - apiVersion: v1
-      appVersion: 2.7.3
-      created: "2025-04-03T14:05:57.877769+08:00"
-      description: A Helm chart to deploy Confluent for Kubernetes
-      digest: fc6702e391847b3d6e095482bfc9ad5350c91c6f2b271c48ad1093d8c0f30ea6
-      home: https://www.confluent.io/
-      keywords:
-        - Confluent
-        - Confluent Operator
-        - Confluent Platform
-        - CFK
-      maintainers:
-        - email: operator@confluent.io
-          name: Confluent Operator
-      name: confluent-for-kubernetes
-      sources:
-        - https://docs.confluent.io/current/index.html
-      urls:
-        - https://godq.github.io/helm-charts-test/confluent-for-kubernetes-0.824.40.tgz
-      version: 0.824.40
+  - apiVersion: v1
+    appVersion: 2.11.0
+    created: "2025-04-03T14:41:23.775698+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: c0da633a7e9aebbf31ec3ee51d10af4926c3139ed30c8bc77149a28ac986fde5
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.1193.1.tgz
+    version: 0.1193.1
+  - apiVersion: v1
+    appVersion: 2.10.0
+    created: "2025-04-03T14:41:23.767661+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 2942cac0588d236347ee624a08e1ce94d68cfbb4d7a54b0b78fd151e91a65a2f
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.1145.6.tgz
+    version: 0.1145.6
+  - apiVersion: v1
+    appVersion: 2.9.4
+    created: "2025-04-03T14:41:23.759785+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: f83f2a98b2d39bf888f5cf8a3a0411223720312fb8d1dd6adb8ae03b0e11f5a0
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.1033.43.tgz
+    version: 0.1033.43
+  - apiVersion: v1
+    appVersion: 2.9.3
+    created: "2025-04-03T14:41:23.751764+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 0a30c0560f58e92418e50defc78d4e837f810838e5895bc947c7fb2e9c2fce70
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.1033.33.tgz
+    version: 0.1033.33
+  - apiVersion: v1
+    appVersion: 2.9.2
+    created: "2025-04-03T14:41:23.731902+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 95dd773005b912b1211a2f3696e899e4a9a7b5ad38b2d2e68a3d697da5a7ace7
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.1033.22.tgz
+    version: 0.1033.22
+  - apiVersion: v1
+    appVersion: 2.9.1
+    created: "2025-04-03T14:41:23.719957+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 9e4cf01be3259c204e30c0f0e6d3b05dbc423c4f83c72650ea0be473044e878a
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.1033.10.tgz
+    version: 0.1033.10
+  - apiVersion: v1
+    appVersion: 2.9.0
+    created: "2025-04-03T14:41:23.741591+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 29530662581e4e762b9cc2944f040c7addc02870e1de9eccb5d10b9c62ee57db
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.1033.3.tgz
+    version: 0.1033.3
+  - apiVersion: v1
+    appVersion: 2.8.5
+    created: "2025-04-03T14:41:23.833585+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: f20ea426f3002633770da2ebc9bdb5a6aa5e73e8430968bc4b197c069e1172b4
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.921.77.tgz
+    version: 0.921.77
+  - apiVersion: v1
+    appVersion: 2.8.4
+    created: "2025-04-03T14:41:23.826447+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: a1c40312b72eb046d9db00f0a488d20bb570efa302e08ee3c10e0434c85103c1
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.921.63.tgz
+    version: 0.921.63
+  - apiVersion: v1
+    appVersion: 2.8.3
+    created: "2025-04-03T14:41:23.819256+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 8f1218e9223bf11e2c25bbd303746b5d58732a7ae31a2bdc260fe1be39252bfb
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.921.40.tgz
+    version: 0.921.40
+  - apiVersion: v1
+    appVersion: 2.8.2
+    created: "2025-04-03T14:41:23.810338+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 31bf5d7ddeab988211679f742518ffd4e6f1ccad4e6d5a52c03055dffc065846
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.921.20.tgz
+    version: 0.921.20
+  - apiVersion: v1
+    appVersion: 2.8.0
+    created: "2025-04-03T14:41:23.803406+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 3b2fc355d56bfc3f359f00f51e0edbef65214a019e05eea2845195d98eed1dff
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.921.2.tgz
+    version: 0.921.2
+  - apiVersion: v1
+    appVersion: 2.7.5
+    created: "2025-04-03T14:41:23.796301+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: f5f06af5038ea0944bf4313898b8c6ba583a2792e54e599c0dc219b20a077985
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.824.84.tgz
+    version: 0.824.84
+  - apiVersion: v1
+    appVersion: 2.7.4
+    created: "2025-04-03T14:41:23.789611+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 5e47cb890ecb5f3c9c36f99a356a197bb797d80c659c6168e972b2e512cc53a4
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.824.61.tgz
+    version: 0.824.61
+  - apiVersion: v1
+    appVersion: 2.7.3
+    created: "2025-04-03T14:41:23.782559+08:00"
+    description: A Helm chart to deploy Confluent for Kubernetes
+    digest: 1b31d0d452944b3395dd281395030338478a599c4802e6b498f071c2075fc40f
+    home: https://www.confluent.io/
+    keywords:
+    - Confluent
+    - Confluent Operator
+    - Confluent Platform
+    - CFK
+    maintainers:
+    - email: operator@confluent.io
+      name: Confluent Operator
+    name: confluent-for-kubernetes
+    sources:
+    - https://docs.confluent.io/current/index.html
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/confluent-for-kubernetes-0.824.40.tgz
+    version: 0.824.40
   enterprise-operator:
-    - apiVersion: v2
-      created: "2025-04-03T14:05:57.934169+08:00"
-      description: MongoDB Kubernetes Enterprise Operator
-      digest: 7ae1b2606e7ca2f2a8a6473016daa1ace1d3d0bd4116bbc5318d45cf4066ad4f
-      home: https://github.com/mongodb/mongodb-enterprise-kubernetes
-      icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
-      keywords:
-        - mongodb
-        - database
-        - nosql
-      kubeVersion: ">=1.16-0"
-      maintainers:
-        - email: support@mongodb.com
-          name: MongoDB
-      name: enterprise-operator
-      type: application
-      urls:
-        - https://godq.github.io/helm-charts-test/mongodb-enterprise-operator-1.24.0.tgz
-      version: 1.24.0
+  - apiVersion: v2
+    created: "2025-04-03T14:41:23.837279+08:00"
+    description: MongoDB Kubernetes Enterprise Operator
+    digest: 7ae1b2606e7ca2f2a8a6473016daa1ace1d3d0bd4116bbc5318d45cf4066ad4f
+    home: https://github.com/mongodb/mongodb-enterprise-kubernetes
+    icon: https://mongodb-images-new.s3.eu-west-1.amazonaws.com/leaf-green-dark.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    kubeVersion: '>=1.16-0'
+    maintainers:
+    - email: support@mongodb.com
+      name: MongoDB
+    name: enterprise-operator
+    type: application
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/mongodb-enterprise-operator-1.24.0.tgz
+    version: 1.24.0
   etcd:
-    - annotations:
-        category: Database
-      apiVersion: v2
-      appVersion: 3.5.4
-      created: "2025-04-03T14:05:57.930599+08:00"
-      dependencies:
-        - name: common
-          repository: https://charts.bitnami.com/bitnami
-          tags:
-            - bitnami-common
-          version: 2.x.x
-      description:
-        etcd is a distributed key-value store designed to securely store
-        data across a cluster. etcd is widely used in production on account of its reliability,
-        fault-tolerance and ease of use.
-      digest: 1ee8739bbd85d8bb356e93ad4b0e522a7169bcc9d3ca38562ccd8e623bf9ed12
-      home: https://github.com/bitnami/charts/tree/master/bitnami/etcd
-      icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
-      keywords:
-        - etcd
-        - cluster
-        - database
-        - cache
-        - key-value
-      maintainers:
-        - name: Bitnami
-          url: https://github.com/bitnami/charts
-      name: etcd
-      sources:
-        - https://github.com/bitnami/containers/tree/main/bitnami/etcd
-        - https://coreos.com/etcd/
-      urls:
-        - https://godq.github.io/helm-charts-test/etcd-8.5.0.tgz
-      version: 8.5.0
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 3.5.4
+    created: "2025-04-03T14:41:23.835557+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: etcd is a distributed key-value store designed to securely store
+      data across a cluster. etcd is widely used in production on account of its reliability,
+      fault-tolerance and ease of use.
+    digest: 1ee8739bbd85d8bb356e93ad4b0e522a7169bcc9d3ca38562ccd8e623bf9ed12
+    home: https://github.com/bitnami/charts/tree/master/bitnami/etcd
+    icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
+    keywords:
+    - etcd
+    - cluster
+    - database
+    - cache
+    - key-value
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: etcd
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/etcd
+    - https://coreos.com/etcd/
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/etcd-8.5.0.tgz
+    version: 8.5.0
   nginx:
-    - annotations:
-        category: Infrastructure
-      apiVersion: v2
-      appVersion: 1.22.0
-      created: "2025-04-03T14:05:57.935991+08:00"
-      dependencies:
-        - name: common
-          repository: https://charts.bitnami.com/bitnami
-          tags:
-            - bitnami-common
-          version: 1.x.x
-      description:
-        NGINX Open Source is a web server that can be also used as a reverse
-        proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
-        to its ability to provide faster content.
-      digest: ab819eaa57164955a6787dd841a975c819f747039b90f8def24b8d523692887b
-      home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
-      icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
-      keywords:
-        - nginx
-        - http
-        - web
-        - www
-        - reverse proxy
-      maintainers:
-        - name: Bitnami
-          url: https://github.com/bitnami/charts
-      name: nginx
-      sources:
-        - https://github.com/bitnami/bitnami-docker-nginx
-        - https://www.nginx.org
-      urls:
-        - https://godq.github.io/helm-charts-test/nginx-12.0.6.tgz
-      version: 12.0.6
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.22.0
+    created: "2025-04-03T14:41:23.839472+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: NGINX Open Source is a web server that can be also used as a reverse
+      proxy, load balancer, and HTTP cache. Recommended for high-demanding sites due
+      to its ability to provide faster content.
+    digest: ab819eaa57164955a6787dd841a975c819f747039b90f8def24b8d523692887b
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    - https://www.nginx.org
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/nginx-12.0.6.tgz
+    version: 12.0.6
   only-pod:
-    - apiVersion: v2
-      appVersion: 8.8.8
-      created: "2025-04-03T14:05:57.937149+08:00"
-      description: Only pod, no service/ingress
-      digest: 9e5e618d196614e52852f8c7d46606cfadd7e533490bf7c3335b02452d2bf3da
-      name: only-pod
-      type: application
-      urls:
-        - https://godq.github.io/helm-charts-test/only-pod-8.8.8.tgz
-      version: 8.8.8
-    - apiVersion: v2
-      appVersion: 6.6.6
-      created: "2025-04-03T14:05:57.936563+08:00"
-      description: Only pod, no service/ingress
-      digest: 787290381f92a158a17fa50cef307787808cae099b527b7118e8f11db7a52761
-      home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
-      icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
-      name: only-pod
-      type: application
-      urls:
-        - https://godq.github.io/helm-charts-test/only-pod-6.6.6.tgz
-      version: 6.6.6
+  - apiVersion: v2
+    appVersion: 8.8.8
+    created: "2025-04-03T14:41:23.840377+08:00"
+    description: Only pod, no service/ingress
+    digest: 9e5e618d196614e52852f8c7d46606cfadd7e533490bf7c3335b02452d2bf3da
+    name: only-pod
+    type: application
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/only-pod-8.8.8.tgz
+    version: 8.8.8
+  - apiVersion: v2
+    appVersion: 6.6.6
+    created: "2025-04-03T14:41:23.839926+08:00"
+    description: Only pod, no service/ingress
+    digest: f19d1ba1e745a51dbc3a3a6b0bd5b5d97d96e98135e25ee62ed2061a6164d48b
+    home: https://github.com/bitnami/charts/tree/master/bitnami/nginx
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    name: only-pod
+    type: application
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/only-pod-6.6.6.tgz
+    version: 6.6.6
   wordpress:
-    - annotations:
-        category: CMS
-      apiVersion: v2
-      appVersion: 5.9.3
-      created: "2025-04-03T14:05:57.943022+08:00"
-      dependencies:
-        - condition: memcached.enabled
-          name: memcached
-          repository: https://charts.bitnami.com/bitnami
-          version: 6.x.x
-        - condition: mariadb.enabled
-          name: mariadb
-          repository: https://charts.bitnami.com/bitnami
-          version: 11.x.x
-        - name: common
-          repository: https://charts.bitnami.com/bitnami
-          tags:
-            - bitnami-common
-          version: 1.x.x
-      description:
-        WordPress is the world's most popular blogging and content management
-        platform. Powerful yet simple, everyone from students to global corporations
-        use it to build beautiful, functional websites.
-      digest: cbc3b546a12f11ed6d3f564bdea1751a231ccb7691849dcf6fb159768173de1e
-      home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
-      icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
-      keywords:
-        - application
-        - blog
-        - cms
-        - http
-        - php
-        - web
-        - wordpress
-      maintainers:
-        - name: Bitnami
-          url: https://github.com/bitnami/charts
-      name: wordpress
-      sources:
-        - https://github.com/bitnami/bitnami-docker-wordpress
-        - https://wordpress.org/
-      urls:
-        - https://godq.github.io/helm-charts-test/wordpress-14.3.7.tgz
-      version: 14.3.7
-generated: "2025-04-03T14:05:57.811906+08:00"
+  - annotations:
+      category: CMS
+    apiVersion: v2
+    appVersion: 5.9.3
+    created: "2025-04-03T14:41:23.846186+08:00"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.x.x
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: WordPress is the world's most popular blogging and content management
+      platform. Powerful yet simple, everyone from students to global corporations
+      use it to build beautiful, functional websites.
+    digest: cbc3b546a12f11ed6d3f564bdea1751a231ccb7691849dcf6fb159768173de1e
+    home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - application
+    - blog
+    - cms
+    - http
+    - php
+    - web
+    - wordpress
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    - https://wordpress.org/
+    urls:
+    - https://godq.github.io/helm-charts-test/charts/wordpress-14.3.7.tgz
+    version: 14.3.7
+generated: "2025-04-03T14:41:23.710846+08:00"
