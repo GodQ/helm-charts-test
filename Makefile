@@ -2,6 +2,7 @@
 build:
 	helm package code/*
 	mv *.tgz charts
+	rm index.yaml
 	helm repo index --url https://godq.github.io/helm-charts-test/ .
 
 use:
