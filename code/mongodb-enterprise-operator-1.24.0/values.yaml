@@ -79,11 +79,11 @@ agent:
 
 mongodbLegacyAppDb:
   name: mongodb-enterprise-appdb-database-ubi
-  repo: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
+  repo: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
 
 mongodb:
   name: mongodb-enterprise-server
-  repo: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
+  repo: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
   appdbAssumeOldFormat: false
   imageType: ubi8
 
@@ -93,14 +93,14 @@ registry:
   # TODO: specify for each image and move there?
   pullPolicy: Always
   # Specify if images are pulled from private registry
-  operator: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
-  database: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
-  initDatabase: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
-  initOpsManager: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
-  opsManager: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
-  initAppDb: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
-  appDb: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
-  agent: vcd-docker-dev-local.usw5.packages.broadcom.com/vcdds/mongodb
+  operator: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
+  database: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
+  initDatabase: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
+  initOpsManager: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
+  opsManager: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
+  initAppDb: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
+  appDb: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
+  agent: vcd-docker-dev-local.packages.vcfd.broadcom.net/vcdds/mongodb
 
 multiCluster:
   # Specify if we want to deploy the operator in multi-cluster mode

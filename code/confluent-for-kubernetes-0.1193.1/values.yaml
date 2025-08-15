@@ -78,7 +78,7 @@ imagePullSecretRef: confluent-registry
 ## Confluent Operator Image Information
 ##
 image:
-  registry: vcd-docker-dev-local.usw5.packages.broadcom.com
+  registry: vcd-docker-dev-local.packages.vcfd.broadcom.net
   repository: vcdds/confluentinc/confluent-operator
   pullPolicy: IfNotPresent
   tag: "0.1193.1"
